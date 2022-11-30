@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Handlee;
+}
+
+/* gerais */
+section{
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.79);
+    z-index: 999;
+    position: fixed;
+    width: 100vw;
+    background-color: white;
+}
+
+
+/* logomarca */
+#logomarca{
+    display: flex;
+    align-items: center;
+}
+#logomarca svg{
+    margin-left: 10px;
+    margin-right: 50px;
+    width: 90px;
+}
+#logomarca h1{
+    font-size: 35px;
+}
+
+/* navegação - menu*/
+#navegacao{
+    display: flex;
+    align-items: center;
+}
+
+#navegacao ul{
+    display: flex;
+}
+
+#navegacao li{
+    list-style: none;
+}
+
+#navegacao a{
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 25px;
+    color: black;
+}
+
+#Acessar{
+    background-color:rgba(255, 199, 0, 1);
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+/* epsaço de menu */
+
+#Espaco_menu{
+    height: 120px;
+}
+
+/* pagina inicial */
+#principal_inicio{
+    background-color: rgba(255, 199, 0, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#principal_inicio_texto {
+    display: flex;
+    height: 800px;
+    width: 880px;
+    overflow: hidden;
+}
+
+#principal_inicio_texto p{
+    display: flex;
+    margin: 0 30px;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: justify;
+    line-height: 55px;
+}
+
+/* DEPOIMENTOS */
+
+#depoimentos{
+  background-color: #000;
+}
+
+#titulo_dep{
+  color: rgba(255, 199, 0, 1);
+  align-items: center;
+}
+
+#img_text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+#img_text h2{
+    font-size: 65px;
+}
+
+/* cartões do depoimento */
+.container_cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt_depoimento{
+    padding: 20px;
+    background-color: #FFDB5D;
+    margin: 0 15px;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 25px;
+    text-align: justify;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.txt_depoimento img{
+    width: 110px;
+    margin: 35px;
+}
+
+.p_dep{
+    padding: 15px;
+}
+
+/* Reuniões */

@@ -137,6 +137,7 @@ header{
     display: flex;
     align-items: center;
     font-size: 25px;
+    margin: 25px;
 }
 
 .txt_depoimento img{
@@ -222,7 +223,8 @@ header{
 #hist_text p{
     font-size: 45px;
     text-align: justify;
-    max-width: 800px;
+    max-width: 700px;
+    margin-right: 25px;
 }
 
 

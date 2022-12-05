@@ -149,3 +149,107 @@ header{
 }
 
 /* Reuniões */
+#reu_head{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+#titulo_reu{
+    font-size: 40px;
+}
+
+#img_text_reu{
+    display: flex;
+    font-size: 50px;
+    margin: 0 10px;
+}
+
+#img_text_reu p{
+    text-align: justify;
+    max-width: 975px;
+    margin: 0 200px;
+}
+
+#img_text_reu img{
+    max-width: 1000px;
+    margin: 30px;
+    margin-left: 70px;  
+}
+
+#link_reu a{
+    color: #000;
+    display: flex;
+    background-color:#FFDB5D;
+    padding: 5px 20px;
+    margin: 0 500px 15px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    text-decoration: none;
+}
+
+/* Historias */
+
+#historia{
+    background-color: #FFC700;
+    
+}
+
+#hist_head{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+#hist_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hist_text img{
+    padding: 15px;
+    width: 1500px;
+    margin: 25px;
+}
+
+#hist_text p{
+    font-size: 45px;
+    text-align: justify;
+    max-width: 800px;
+}
+
+
+/* tela de login */
+.links_log a{
+    color: #000;
+    text-decoration: none;
+    display: flex;  
+    justify-content: center;
+    font-size: 50px;
+    margin: 0 5px;
+}
+
+
+.formulario{
+    display: flex;
+    font-size: 45px;
+    align-items: center;
+    justify-content: center;
+    border:solid #FFC700 5px;
+}
+
+.formulario input{
+    width: 500px;
+    height: 45px;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0;
+}

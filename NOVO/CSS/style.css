@@ -120,11 +120,11 @@ header{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 50px 0;
+    padding: 15px 0;
 }
 
 #img_text h2{
-    font-size: 65px;
+    font-size: 50px;
 }
 
 /* cartões do depoimento */
@@ -138,15 +138,14 @@ header{
     display: flex;
     padding: 20px;
     background-color: #FFDB5D;
-    margin: 0 15px;
-    flex-direction: column;
+    margin: 0 20px;
     width: 500px;
-    height: 750px;
+    max-height: fit-content;
+    flex-direction: column; 
     border-radius: 25px;
     text-align: justify;
     align-items: center;
     font-size: 25px;
-    margin: 40px;
 }
 
 .txt_depoimento img{
@@ -185,7 +184,7 @@ header{
 }
 
 #img_text_reu img{
-    max-width: 1000px;
+    max-width: 900px;
     margin: 30px;
     margin-left: 70px;  
 }
@@ -226,7 +225,7 @@ header{
 
 #hist_text img{
     padding: 15px;
-    width: 1500px;
+    width: 1200px;
     margin: 25px;
 }
 

@@ -170,3 +170,44 @@ footer{
     margin-top: 50px;
     margin-right: 29px;
 }
+
+/* Pagina de perfil */
+
+.borderPerfil{
+  margin: 50px auto;
+  width: 1803px;
+  height: 780px;
+
+  background: ##FFC700;
+  box-shadow: 0px 0px 4px 4px #FFC700;
+}
+
+#femPFP{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#femPFP img{
+  margin: 15px;
+}
+
+#alterar{
+  background-color: #FFC700;
+  transition: 0.3s;
+  cursor: pointer;
+
+  box-shadow: 0px 0px 0px 1px #000000;
+  border-radius: 15px;
+
+
+  padding: 13px 385px;
+  box-shadow: #000;
+
+  text-align: center;
+  color: #000;
+  font-size: 40px;
+}
+
+#alterar:hover{
+  background-color: #ffdb5b;
+}

@@ -214,7 +214,7 @@ header{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 50px 0;
+    padding: 25px 0;
 }
 
 #hist_text{
@@ -224,7 +224,7 @@ header{
 }
 
 #hist_text img{
-    padding: 15px;
+    padding: 15px 0;
     width: 1200px;
     margin: 25px;
 }
@@ -233,34 +233,45 @@ header{
     font-size: 45px;
     text-align: justify;
     max-width: 700px;
-    margin-right: 25px;
+    margin: 0 25px;
 }
 
 
-/* tela de login */
-.links_log a{
+/* BARRA DE NAVEGAÇÃO ALT - LOGGED IN */
+
+#logPFP {
+    width: 70px;
+    height: 70px;
+}
+
+/* DEPOIMENTO ALT - LOGGED IN */
+
+#linkDep a{
     color: #000;
-    text-decoration: none;
-    display: flex;  
-    justify-content: center;
-    font-size: 50px;
-    margin: 0 5px;
-}
-
-
-.formulario{
     display: flex;
-    font-size: 45px;
+    background-color:#FFF;
+    padding: 5px 20px;
+    margin: 25px 500px 15px;
+    border-radius: 20px;
+    justify-content: center;
     align-items: center;
-    justify-content: center;
-    border:solid #FFC700 5px;
+    font-size: 45px;
+    text-decoration: none;
 }
 
-.formulario input{
-    width: 500px;
-    height: 45px;
-    font-size: 35px;
+/* HISTOIRA ALT - LOGGED IN */
+
+#linkHist a{
+    color: #000;
     display: flex;
-    flex-direction: column;
-    margin: 25px 0;
+    background-color:#FFDB5D;
+    border-radius: 20px;
+    justify-content: center;
+    font-size: 45px;
+    text-decoration: none;
+    margin: 0 190px 0 1390px;
+    padding: 0 10px ;
 }
+
+
+

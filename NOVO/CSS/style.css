@@ -47,7 +47,7 @@ header{
 }
 
 /* navegação - menu*/
-#navegacao{
+#navegacao{ 
     display: flex;
     align-items: center;
     margin-right: 15px;
@@ -273,5 +273,44 @@ header{
     padding: 0 10px ;
 }
 
+/* Tela de depoimentos */
 
+#dep_text_head {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}   
+
+#dep_textA{
+    background-color: #000;
+
+}
+
+#editor_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#editor_back{
+    color: #000;
+    border: 2px solid #FFC700;
+    box-shadow: #FFC700;
+    padding: 10px;
+    z-index: 5;
+    width: 600px;
+    max-height: 300px;
+    font-size: 30px;
+}
+
+#enviar{
+    color: black;
+    text-decoration: none;
+    background-color: #FFC700;
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 900px;
+}
 

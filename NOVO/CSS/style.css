@@ -299,8 +299,9 @@ header{
     box-shadow: #FFC700;
     padding: 10px;
     z-index: 5;
-    width: 1000px;
-    max-height: 600px;
+    width: 1500px;
+    height: 600px;
+    max-height: 700px;
     font-size: 30px;
 }
 
@@ -310,8 +311,8 @@ header{
     background-color: #FFC700;
     border-radius: 15px;
     padding: 5px;
-    margin-left: 1460px;
-    font-size: 25px;
+    margin-left: 1965px;
+    font-size: 35px;
 }
 
 /* HISTORIAS ALT - LOGGED IN */
@@ -324,6 +325,9 @@ header{
     padding: 50px 0;
 }
 
+#titulo_hist{
+    font-size: 55px;
+}
 #hist_textA{
     background-color:#FFC700 ;
 }
@@ -340,8 +344,9 @@ header{
     box-shadow: #000;
     padding: 10px;
     z-index: 5;
-    width: 1000px;
-    max-height: 600px;
+    width: 1500px;
+    height: 600px;
+    max-height: 700px;
     font-size: 30px;
 }
 
@@ -351,7 +356,7 @@ header{
     background-color: #000;
     border-radius: 15px;
     padding: 5px;
-    font-size: 25px;
+    font-size: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -364,7 +369,7 @@ input[type="file"]{
 
 #label_env{
     color: white;
-    font-size: 25px;
+    font-size: 35px;
     background-color: #000;
     padding: 10px;
     border-radius: 20px;
